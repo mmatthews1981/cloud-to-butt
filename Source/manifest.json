@@ -1,8 +1,8 @@
 {
-	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"manifest_version": 1,
+	"name": "Trump To Alex",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"description": "Prepends the text 'Trump' or 'Donald Trump' with 'Alex Mickelson's 3rd-favorite butt-boy ",
 	"content_scripts": 
 	[
 		{
