@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
     "name": "Trump to Alex",
-    "description": "Because this really does need to be corrected, yo",
+    "description": "Replace all instances of 'Donald Trump' in your browser with 'Alex Mickelson/'s 3rd-favorite butt boy, Donald Trump'.",
     "version": "0.1",
 
     "browser_action": {
