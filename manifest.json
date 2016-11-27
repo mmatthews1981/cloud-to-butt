@@ -1,0 +1,22 @@
+{
+"manifest_version": 2,
+    "name": "Trump to Alex",
+    "description": "Because this really does need to be corrected, yo",
+    "version": "0.1",
+
+    "browser_action": {
+        "default_icon": "icon.png"
+      },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content_script.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
