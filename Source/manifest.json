@@ -1,15 +1,17 @@
 {
-	"manifest_version": 1,
-	"name": "Trump To Alex",
-	"version": "1.0",
-	"description": "Prepends the text 'Trump' or 'Donald Trump' with 'Alex Mickelson's 3rd-favorite butt-boy ",
-	"content_scripts": 
-	[
-		{
-			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
-			"run_at": "document_end"
-		}
-	]
+"manifest_version": 2,
+    "name": "Trump to Alex",
+    "description": "Because this really does need to be corrected, yo",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
 }
-
